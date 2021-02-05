@@ -1,0 +1,17 @@
+.sign-up img{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+.sign-up{
+    width: 25%;
+    margin:auto;
+    margin-top: 20px;
+}
+.sign-up span{
+    font-size: 14px;
+    color: red;
+}
+img.googe-icon, img.fb-icon {
+    width: 50px;
+}

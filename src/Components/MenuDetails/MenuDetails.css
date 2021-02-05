@@ -1,0 +1,66 @@
+.menu-details-img{
+    width: 100%;
+}
+.menu-details{
+    padding: 100px;
+}
+.desc-content h1{
+    font-weight: 500;
+    font-size: 34px;
+    margin-bottom: 25px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.desc-content h3{
+    font-family: 'PT Serif', serif;
+}
+.desc-content p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.add-cart-btn{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(214, 42, 42);
+    color: white;
+    padding: 5px 30px;
+    margin-top: 30px;
+}
+.add-cart-btn:hover{
+    background-color: red;
+}
+.add-cart-btn:focus{
+    outline: none;
+}
+.menu-quantity-handler{
+    border: 1px solid black;
+    width: 120px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+.add-minus button:focus{
+    border: none;
+}
+
+.successMsg{
+    font-weight: bold;
+    color: green;
+    margin-left: 20px;
+    animation: show-hide 1.5s ease-in-out  1 forwards;
+    animation-duration: 4s;
+    font-style: italic;
+}
+
+@keyframes show-hide{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

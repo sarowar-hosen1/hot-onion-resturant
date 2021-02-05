@@ -1,0 +1,12 @@
+.food .nav{
+    font-weight: 600;
+    margin-top: 30px;
+}
+.food .nav .nav-link{
+    cursor: pointer;
+}
+
+.nav-link:focus{
+    color: red;
+    border-bottom: 2px solid red;
+}

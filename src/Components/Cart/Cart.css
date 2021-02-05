@@ -1,0 +1,28 @@
+.shipping-contact{
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+}
+.shipping-contact .form-control {
+    background-color: #f3f3f3;
+    border: none;
+    margin-bottom: 25px;
+}
+.cart{
+    margin-top: 50px;
+}
+
+.cart-img{
+    width: 80px;
+}
+.cart-img img{
+    width: 100%;
+}
+.d-flex.align-items-center.cart-item {
+    background-color: #efebeb;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cart-content p{
+    line-height: 10px;
+}
